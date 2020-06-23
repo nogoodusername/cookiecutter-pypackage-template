@@ -1,0 +1,10 @@
+{
+    "author_name": "Kshitij Nagvekar",
+    "author_email": "ksnagvekar@gmail.com",
+
+    "package_name": "nameless",
+    "package_version": "0.1.0",
+    "package_description": "A cookiecutter template for Python packages",
+    "package_url": "https://github.com/nogoodusername/cookiecutter-pypackage-template",
+    "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
+}
