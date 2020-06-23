@@ -25,7 +25,7 @@ pip install setuptools cookiecutter
    `package_name`: Name of the python package. Please only enter [a qualified python package name](https://www.python.org/dev/peps/pep-0008/#package-and-module-names). (Used in setup.py, README.md)   
    `package_version`: Release version (Used in setup.cfg)   
    `package_description`: One line description of the library (Used in README and setup.py)   
-   `package_url`: Get Repo URL of the library.   
+   `package_url`: Git Repo URL of the library.   
 
 2. #### Add a Git Repo
    Create a new repo for `package_name` in Github or your preferred Git repository hosting site. 
