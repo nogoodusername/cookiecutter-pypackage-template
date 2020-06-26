@@ -36,6 +36,7 @@ pip install setuptools cookiecutter
    cd [package_name]
    git init .
    git add .
+   git commit -m "Initial commit"
    git remote add origin git@[your-package-repo]
    git push -u origin master
    ```
@@ -60,7 +61,7 @@ Please read [Semantic Versioning 2.0.0](http://semver.org/) before bumping versi
 
 
 ### Changelog
-Changelogs are maintained using (Keep a Changelog)[https://keepachangelog.com/en/1.0.0/] format.
+Changelogs are maintained using [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format.
 
 ### Publishing the package
 This template does not include a publish mechanism. Implement your own publishing mechanism and update the Makefile:deploy function.
