@@ -65,3 +65,6 @@ Changelogs are maintained using [Keep a Changelog](https://keepachangelog.com/en
 
 ### Publishing the package
 This template does not include a publish mechanism. Implement your own publishing mechanism and update the Makefile:deploy function.
+
+### Sample package generated from this template
+https://github.com/nogoodusername/py-useless-package/
