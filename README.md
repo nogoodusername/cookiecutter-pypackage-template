@@ -25,7 +25,7 @@ pip install setuptools cookiecutter
    `package_name`: Name of the python package. Please only enter [a qualified python package name](https://www.python.org/dev/peps/pep-0008/#package-and-module-names). (Used in setup.py, README.md)   
    `package_version`: Release version (Used in setup.cfg)   
    `package_description`: One line description of the library (Used in README and setup.py)   
-   `package_url`: Get Repo URL of the library.   
+   `package_url`: Git Repo URL of the library.   
 
 2. #### Add a Git Repo
    Create a new repo for `package_name` in Github or your preferred Git repository hosting site. 
@@ -36,6 +36,7 @@ pip install setuptools cookiecutter
    cd [package_name]
    git init .
    git add .
+   git commit -m "Initial commit"
    git remote add origin git@[your-package-repo]
    git push -u origin master
    ```
@@ -60,7 +61,10 @@ Please read [Semantic Versioning 2.0.0](http://semver.org/) before bumping versi
 
 
 ### Changelog
-Changelogs are maintained using (Keep a Changelog)[https://keepachangelog.com/en/1.0.0/] format.
+Changelogs are maintained using [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) format.
 
 ### Publishing the package
 This template does not include a publish mechanism. Implement your own publishing mechanism and update the Makefile:deploy function.
+
+### Sample package generated from this template
+https://github.com/nogoodusername/py-useless-package/
