@@ -37,11 +37,7 @@ setup(
 
     packages=find_packages(exclude=('tests',)),
 
-    install_requires=[
-        "Django",
-        "workindia-basemodels",
-        "workindia-generic-adapter"
-    ],
+    install_requires=[],
     setup_requires=[
         'wheel',
         'pip>=20'
