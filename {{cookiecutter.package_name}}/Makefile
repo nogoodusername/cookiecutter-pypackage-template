@@ -37,6 +37,8 @@ release: clean ## make a release increment
 ifneq ($(filter $(PART),$(RELEASE_PARTS)),)
 	$(info Making a $(PART) release)
 	bump2version $(PART)
+	git push origin --tags
+	git push origin master
 else
 	$(error Wrong part tag entered "$(PART)")
 endif
