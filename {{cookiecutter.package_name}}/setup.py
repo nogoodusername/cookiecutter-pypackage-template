@@ -20,6 +20,7 @@ def read(filename):
     'GNU General Public License v3': 'License :: OSI Approved :: GNU General Public License v3 (GPLv3)'
 } %}
 
+
 setup(
     name="{{ cookiecutter.package_name }}",
     version='{{ cookiecutter.package_version }}',
@@ -34,6 +35,7 @@ setup(
 
     description="{{ cookiecutter.package_description }}",
     long_description=read("README.md"),
+    long_description_content_type="text/markdown",
 
     packages=find_packages(exclude=('tests',)),
 
